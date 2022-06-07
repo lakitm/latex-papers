@@ -1,5 +1,5 @@
-# latex_papers
-Collection of the papers I wrote using LaTeX programming.
+# Papers
+This entire repository is dedicated to displaying the collection of papers I've written in LaTeX. 
 
 # LICENSE
 Copyright [2022] [Tamira Laki]
