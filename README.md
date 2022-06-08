@@ -2,7 +2,7 @@
 This entire repository is dedicated to displaying the collection of papers I've written in LaTeX. 
 
 ## LICENSE
-Copyright [2022] [Tamira Laki]
+Copyright 2022 Tamira Laki
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
