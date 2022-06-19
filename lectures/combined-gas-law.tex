@@ -1,0 +1,187 @@
+% !TeX program = xelatex
+\documentclass[12pt, a4paper]{article}
+\usepackage[margin = 1in]{geometry}
+
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Times New Roman}
+
+\usepackage{amsmath, amssymb}
+\usepackage{siunitx}
+
+\title{Combined Gas Law: Solution Sheet}
+\author{Tamira Laki}
+\date{April 20, Wednesday}
+
+\begin{document}
+
+\maketitle
+
+\begin{enumerate}
+	\item A gas has a volume of 3.0 L at 2.0 atm. What will be its volume if the pressure increases to 4.0 atm?
+		\begin{gather*}
+		V_1 = \SI{3.0}{\l}\\
+		P_1 = \SI{2.0}{atm}\\
+		P_2 = \SI{4.0}{atm}\\
+		V_2 = ?\\[3mm]
+		V_2 = \dfrac{\SI{2}{atm} \times\SI{3.0}{\l}}{\SI{4.0}{atm}}\\[3mm]
+		\fbox{$V_2$ = \SI{1.5}{\l}}
+		\end{gather*}
+	\item Not all Gas Law problems have Kelvin (K) as the unit of temperature. They can be expressed in Celsius (°C) and Fahrenheit(°F). So, convert 123°C to K.
+		\begin{gather*}
+		\SI{123}{\celsius} + \SI{273.15}{\kelvin} = \SI{396.15}{\kelvin}
+		\end{gather*}
+	\item An ideal gas exerts a pressure of 3.0 atm in a 3.0 L container. The container is at a temperature of 298 K. What will be the final pressure if the volume of the container changes to 2.0 L?
+		\begin{gather*}
+		P_1 = \SI{3.0}{atm}\\
+		V_1 = \SI{3.0}{\l}\\
+		T_1 = \SI{298}{\kelvin}\\
+		V_2 = \SI{2.0}{\l}\\
+		T_2 = \SI{298}{\kelvin}\\
+		P_2 = ?\\[3mm]
+		P_2 = \dfrac{P_1T_2V_1}{T_1V_2}\\[3mm]
+		P_2 = \dfrac{\SI{3.0}{\l} \times \SI{298}{\kelvin} \times \SI{3.0}{atm}}{\SI{298}{\kelvin} \times \SI{2.0}{\l}}\\[3mm]
+		\fbox{$P_2$ = \SI{4.5}{atm}}
+		\end{gather*}
+	\item Xenon gas was measured to have a volume of 15.5 L. If the volume changes to 0.6 L and the initial pressure is 44 Pa, what is the final pressure? 
+		\begin{gather*}
+		V_1 = \SI{15.5}{\l}\\
+		V_2 = \SI{0.6}{\l}\\
+		P_1 = \SI{44.0}{\pascal}\\
+		P_2 = ?\\[3mm]
+		P_2 = \dfrac{P_1 V_1}{V_2}\\[3mm]
+		P_2 = \dfrac{\SI{44.0}{\pascal} \times \SI{15.5}{\l}}{\SI{0.6}{\l}}\\[3mm]
+		\fbox{$P_2$ = \SI{1136.67}{Pa}}
+		\end{gather*}
+	\item  A gas is an environment that has a volume of 16.8 L and a pressure of 3.2 atm. If the volume changes to 10.6 L, what will be the new pressure?
+		\begin{gather*}
+		V_1 = \SI{16.8}{\l}\\
+		P_1 = \SI{3.2}{atm}\\
+		V_2 = \SI{10.6}{\l}\\
+		P_2 = ?\\[3mm]
+		P_2 = \dfrac{P_1 V_1}{V_2}\\[3mm]
+		P_2 = \dfrac{\SI{3.2}{atm} \times \SI{16.8}{\l}}{\SI{10.6}{\l}}\\[3mm]
+		\fbox{$P_2$ = \SI{5.07}{atm}}
+		\end{gather*}
+	\item A sample of Argon has a volume of 0.43 mL at 299 K. At what temperature in degrees celsius will it have a volume of 1 mL. 
+		\begin{gather*}
+		V_1 = \SI{0.43}{\ml}\\
+		T_1 = \SI{299.0}{\kelvin}\\
+		V_2 = \SI{1.0}{\ml}\\
+		T_2 = ?\\[3mm]
+		T_2 = \dfrac{V_2 \times T_1}{V_1}\\[3mm]
+		T_2 = \dfrac{\SI{1.0}{\ml} \times \SI{299.0}{\kelvin}}{\SI{0.43}{\ml}}\\[3mm]
+		T_2 = \SI{695.34}{\kelvin} - \SI{273.15}{\kelvin} = \fbox{\SI{422.20}{\celsius}}
+		\end{gather*}
+
+		\newpage
+
+	\item At a pressure of 5.0 atmospheres, a sample of gas occupies 40 ls. What volume will the same sample hold at 1.0 atmosphere? 
+		\begin{gather*}
+		P_1 = \SI{5.0}{atm}\\
+		V_1 = \SI{40.0}{\l}\\
+		P_2 = \SI{1.0}{atm}\\
+		V_2 = ?\\[3mm]
+		V_2 = \dfrac{P_1 V_1}{P_2}\\[3mm]
+		V_2 = \dfrac{\SI{5.0}{atm} \times \SI{40.0}{\l}}{\SI{1.0}{atm}}\\[3mm]
+		\fbox{$V_2$ = \SI{200.0}{\l}}
+		\end{gather*}
+	\item In a closed container at 1.0 atmosphere, the temperature of a sample of gas is raised from 300 K to 400 K. What will be the final pressure of the gas?
+		\begin{gather*}
+		P_1 = \SI{1.0}{atm}\\
+		T_1 = \SI{300.0}{\kelvin}\\
+		T_2 = \SI{400.0}{\kelvin}\\
+		P_2 = ?\\[3mm]
+		P_2 = \dfrac{P_1 T_2}{T_1}\\[3mm]
+		P_2 = \dfrac{\SI{1.0}{atm} \times \SI{400.0}{\kelvin}}{\SI{300.0}{\kelvin}}\\[3mm]
+		\fbox{$P_2$ = \SI{1.33}{atm}}
+		\end{gather*}
+	\item When a supply of hydrogen gas is held in a 4-liter container at 320 K, it exerts a pressure of 800 torrs. The supply is moved to a 2-liter container and cooled to 160 K. What is the new pressure of the confined gas? 
+		\begin{gather*}
+		V_1 = \SI{4.0}{\l}\\
+		T_1 = \SI{320.0}{\kelvin}\\
+		P_1 = \SI{800.0}{torr}\\
+		V_2 = \SI{2.0}{\l}\\
+		T_2 = \SI{160.0}{\kelvin}\\
+		P_2 = ?\\[3mm]
+		P_2 = \dfrac{P_1 T_2 V_1}{T_1 V_2}\\[3mm]
+		P_2 = \dfrac{\SI{800.0}{torr} \times \SI{160.0}{\kelvin} \times \SI{4.0}{\l}}{\SI{320.0}{\kelvin} \times \SI{2.0}{\liter}}\\[3mm]
+		\fbox{$P_2$ = \SI{800.0}{torr}}
+		\end{gather*}
+	\item A small sample of helium gas occupies 6 mL at a temperature of 250 K. At what temperature does the volume expand to 9 mL?
+		\begin{gather*}
+		V_1 = \SI{6.0}{\ml}\\
+		T_1 = \SI{250.0}{\kelvin}\\
+		V_2 = \SI{9.0}{\ml}\\
+		T_2 = ?\\[3mm]
+		T_2 = \dfrac{V_2 \times T_1}{V_1}\\[3mm]
+		T_2 = \dfrac{\SI{9.0}{\ml} \times \SI{250.0}{\kelvin}}{\SI{6.0}{\ml}}\\[3mm]
+		\fbox{$T_2$ = \SI{375.0}{\kelvin}}
+		\end{gather*}
+	\item Neon gas has a volume of 2,000 ml with a pressure of 1.8atm however, the pressure decreased to 1.3 atm; what is now the volume of the neon gas?
+		\begin{gather*}
+		V_1 = \SI{2000.0}{\ml}\\
+		P_1 = \SI{1.8}{atm}\\
+		P_2 = \SI{1.3}{atm}\\
+		V_2 = ?\\[3mm]
+		V_2 = \dfrac{P_1 V_1}{P_2}\\[3mm]
+		V_2 = \dfrac{\SI{1.8}{atm} \times \SI{2000.0}{\ml}}{\SI{1.3}{atm}}\\[3mm]
+		\fbox{$V_2$ = \SI{2769.23}{\ml}}
+		\end{gather*}
+	\item If 22.5 L of nitrogen at 748 mmHg are compressed to 725 mmHg at constant temperature. What is the new volume?
+		\begin{gather*}
+		V_1 = \SI{22.5}{\l}\\
+		P_1 = \SI{748.0}{\mmHg}\\
+		P_2 = \SI{725.0}{\mmHg}\\
+		V_2 = ?\\[3mm]
+		V_2 = \dfrac{P_1 V_1}{P_2}\\[3mm]
+		V_2 = \dfrac{\SI{748.0}{\mmHg} \times \SI{22.8}{\l}}{\SI{725.0}{\mmHg}}\\[3mm]
+		\fbox{$V_2$ = \SI{23.21}{\l}} 
+		\end{gather*}
+	\item A gas has a volume of 3.0 L at 127°C. What will be its volume if the temperature increases to 227°C?
+		\begin{gather*}
+		V_1 = \SI{3.0}{\l}\\
+		T_1 = \SI{127.0}{\celsius} + \SI{273.15}{\kelvin} = \SI{400.15}{\kelvin}\\
+		T_2 = \SI{227.0}{\celsius}+ \SI{273.15}{\kelvin} = \SI{500.15}{\kelvin}\\
+		V_2 = ?\\[3mm]
+		V_2 =  \dfrac{V_1 T_2}{T_1}\\[3mm]
+		V_2 = \dfrac{\SI{3.0}{\l} \times \SI{500.25}{\kelvin}}{\SI{400.15}{\kelvin}}\\[3mm]
+		\fbox{$V_2$ = \SI{3.75}{\l}}
+		\end{gather*}
+	\item 600.0 mL of air is at 20.0°C. What is the volume at 60.0°C?
+		\begin{gather*}
+		V_1 = \SI{600.0}{\ml}\\
+		T_1 = \SI{20.0}{\celsius} + \SI{273.15}{\kelvin} = \SI{293.15}{\kelvin}\\
+		T_2 = \SI{60.0}{\celsius} + \SI{273.15}{\kelvin} = \SI{333.15}{\kelvin}\\
+		V_2 = ?\\[3mm]
+		V_2 =  \dfrac{V_1 T_2}{T_1}\\[3mm]
+		V_2 = \dfrac{\SI{600.0}{\ml} \times \SI{333.15}{\kelvin}}{\SI{293.15}{\kelvin}}\\[3mm]
+		\fbox{$V_2$ = \SI{681.87}{\ml}}
+		\end{gather*}
+	\item A gas occupies 12.3 L at a pressure of 40.0 mmHg. What is the volume when the pressure is increased to 60.0 mmHg?
+		\begin{gather*}
+		V_1 = \SI{12.3}{\l}\\
+		P_1 = \SI{40.0}{\mmHg}\\
+		P_2 = \SI{60.0}{\mmHg}\\
+		V_2 = ?\\[3mm]
+		V_2 = \dfrac{P_1 V_1}{P_2}\\[3mm]
+		V_2 = \dfrac{\SI{40.0}{\mmHg} \times \SI{12.3}{\l}}{\SI{60.0}{\mmHg}}\\[3mm]
+		\fbox{$V_2$ = \SI{8.2}{\l}}
+		\end{gather*}
+
+		\newpage
+
+	\item What is the temperature of an 11.2 L sample of carbon monoxide (CO) at 744 torr if it occupies 13.3 L at 55 °C and 744 torr? 
+		\begin{gather*}
+		V_2 = \SI{11.2}{\l}\\
+		P_2 = \SI{744.0}{torr}\\
+		V_1 = \SI{13.3}{\l}\\
+		T_1 = \SI{55.0}{\celsius} + \SI{273.15}{\kelvin} = \SI{328.15}{\kelvin}\\
+		P_1 = \SI{744.0}{torr}\\
+		T_2 = ?\\[3mm]
+		T_2 = \dfrac{P_2 T_1 V_2}{P_1 V_1}\\[3mm]
+		T_2 = \dfrac{\SI{744.0}{torr} \times \SI{328.15}{\kelvin} \times \SI{11.2}{\l}}{\SI{744.0}{torr} \times \SI{13.3}{\l}}\\[3mm]
+		\fbox{$T_2$ = \SI{276.34}{\kelvin}}
+		\end{gather*}
+	\end{enumerate}
+\end{document}
